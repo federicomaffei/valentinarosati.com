@@ -52,7 +52,11 @@ server.register(Inert, function () {
             layoutPath: Path.join(__dirname, '/src/views/layout')
         });
 
-        server.start(function() {
+        server.start(function(err) {
+            if (err) {
+                console.log(err);
+            }
+            
             console.log('Server running at:', server.info.uri);
         });
     });
