@@ -1,0 +1,34 @@
+{
+  "name": "valentinarosati.com",
+  "version": "1.0.0",
+  "description": "Vale's website",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/federicomaffei/valentinarosati.com.git"
+  },
+  "keywords": [
+    "valentina",
+    "rosati",
+    "director",
+    "website"
+  ],
+  "author": "Federico Maffei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/federicomaffei/valentinarosati.com/issues"
+  },
+  "homepage": "https://github.com/federicomaffei/valentinarosati.com#readme",
+  "dependencies": {
+    "hapi": "^15.0.3",
+    "hapi-plug-routes": "^1.0.2",
+    "inert": "^4.0.2",
+    "jade": "^1.11.0",
+    "path": "^0.12.7",
+    "vision": "^4.1.0"
+  }
+}
