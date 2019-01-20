@@ -34,6 +34,9 @@ server.register(Inert, function () {
         },
         {
             register: require('hapi-plug-routes')
+        },
+        {
+            register: require('hapi-require-https')
         }
     ], function(registerError) {
         if(registerError) {
